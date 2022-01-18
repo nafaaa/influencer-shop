@@ -10,7 +10,6 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -280,7 +279,6 @@ footer i {
   font-size: 30px;
 }
 /* responsive part css */
-
 @media (min-width: 688px) and (max-width: 991px) {
   .container {
     width: 80%;
@@ -331,13 +329,11 @@ footer i {
   }
 }
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 687px) {
   .container {
     width: 100%;
   }
-  body {
-    overflow: hidden;
-  }
+
   .navbar {
     padding: 0px 20px;
   }
